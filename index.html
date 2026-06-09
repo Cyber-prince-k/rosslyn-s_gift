@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Birthday, Rosslyn! ❤️</title>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -44,12 +47,15 @@
                 transform: translateY(100vh) rotate(0deg) scale(0.5);
                 opacity: 0;
             }
+
             10% {
                 opacity: 1;
             }
+
             90% {
                 opacity: 1;
             }
+
             100% {
                 transform: translateY(-10vh) rotate(360deg) scale(1.2);
                 opacity: 0;
@@ -67,8 +73,17 @@
         }
 
         @keyframes sparkle {
-            0%, 100% { opacity: 0; transform: scale(0); }
-            50% { opacity: 1; transform: scale(1); }
+
+            0%,
+            100% {
+                opacity: 0;
+                transform: scale(0);
+            }
+
+            50% {
+                opacity: 1;
+                transform: scale(1);
+            }
         }
 
         /* Main Container */
@@ -132,6 +147,7 @@
                 opacity: 0;
                 transform: translateY(-50px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -139,8 +155,15 @@
         }
 
         @keyframes pulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.05); }
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
         }
 
         /* Photo Gallery */
@@ -412,8 +435,15 @@
         }
 
         @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-15px); }
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
         }
 
         /* Footer */
@@ -435,10 +465,23 @@
         }
 
         @keyframes heartbeat {
-            0%, 100% { transform: scale(1); }
-            25% { transform: scale(1.2); }
-            50% { transform: scale(1); }
-            75% { transform: scale(1.2); }
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            25% {
+                transform: scale(1.2);
+            }
+
+            50% {
+                transform: scale(1);
+            }
+
+            75% {
+                transform: scale(1.2);
+            }
         }
 
         @keyframes fadeInUp {
@@ -446,6 +489,7 @@
                 opacity: 0;
                 transform: translateY(50px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -461,8 +505,15 @@
         }
 
         @keyframes float-note {
-            0%, 100% { transform: translateY(0) rotate(0deg); }
-            50% { transform: translateY(-30px) rotate(20deg); }
+
+            0%,
+            100% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-30px) rotate(20deg);
+            }
         }
 
         /* Responsive */
@@ -470,15 +521,19 @@
             .hero h1 {
                 font-size: 3rem;
             }
+
             .love-letter {
                 padding: 30px 20px;
             }
+
             .love-letter h2 {
                 font-size: 2rem;
             }
+
             .photo-grid {
                 grid-template-columns: 1fr;
             }
+
             .nickname-section .names {
                 font-size: 1.5rem;
             }
@@ -488,15 +543,18 @@
         ::-webkit-scrollbar {
             width: 10px;
         }
+
         ::-webkit-scrollbar-track {
             background: #e0f7fa;
         }
+
         ::-webkit-scrollbar-thumb {
             background: linear-gradient(180deg, #4fc3f7, #f48fb1);
             border-radius: 5px;
         }
     </style>
 </head>
+
 <body>
     <!-- Floating Hearts -->
     <div class="hearts-container" id="heartsContainer"></div>
@@ -512,25 +570,31 @@
 
         <!-- Photo Gallery -->
         <section class="gallery-section">
-            <h2 class="section-title">Our Beautiful Memories 📸</h2>
+            <h2 class="section-title">my beautiful girls pics 📸</h2>
             <div class="photo-grid">
                 <div class="photo-card">
-                    <img src="rose/WhatsApp Image 2026-06-04 at 7.04.05 PM.jpeg" alt="Rosslyn - Beautiful Memory 1" onerror="this.parentElement.innerHTML='<div class=\\'photo-placeholder\\'><div class=\\'icon\\'>📷</div><p>Add photo1.jpg to rosslyn folder</p></div>'">
+                    <img src="rose/WhatsApp Image 2026-06-04 at 7.04.05 PM.jpeg" alt="Rosslyn - Beautiful Memory 1"
+                        onerror="this.parentElement.innerHTML='<div class=\\'photo-placeholder\\'><div class=\\'icon\\'>📷</div><p>Add photo1.jpg to rosslyn folder</p></div>'">
                 </div>
                 <div class="photo-card">
-                    <img src="rose/WhatsApp Image 2026-06-09 at 4.43.27 PM (1).jpeg" alt="Rosslyn - Beautiful Memory 2" onerror="this.parentElement.innerHTML='<div class=\\'photo-placeholder\\'><div class=\\'icon\\'>💑</div><p>Add photo2.jpg to rosslyn folder</p></div>'">
+                    <img src="rose/WhatsApp Image 2026-06-09 at 4.43.27 PM (1).jpeg" alt="Rosslyn - Beautiful Memory 2"
+                        onerror="this.parentElement.innerHTML='<div class=\\'photo-placeholder\\'><div class=\\'icon\\'>💑</div><p>Add photo2.jpg to rosslyn folder</p></div>'">
                 </div>
                 <div class="photo-card">
-                    <img src="rose/WhatsApp Image 2026-06-09 at 4.43.27 PM.jpeg" alt="Rosslyn - Beautiful Memory 3" onerror="this.parentElement.innerHTML='<div class=\\'photo-placeholder\\'><div class=\\'icon\\'>🌸</div><p>Add photo3.jpg to rosslyn folder</p></div>'">
+                    <img src="rose/WhatsApp Image 2026-06-09 at 4.43.27 PM.jpeg" alt="Rosslyn - Beautiful Memory 3"
+                        onerror="this.parentElement.innerHTML='<div class=\\'photo-placeholder\\'><div class=\\'icon\\'>🌸</div><p>Add photo3.jpg to rosslyn folder</p></div>'">
                 </div>
                 <div class="photo-card">
-                    <img src="rose/WhatsApp Image 2026-06-09 at 4.43.28 PM.jpeg" alt="Rosslyn - Beautiful Memory 4" onerror="this.parentElement.innerHTML='<div class=\\'photo-placeholder\\'><div class=\\'icon\\'>✨</div><p>Add photo4.jpg to rosslyn folder</p></div>'">
+                    <img src="rose/WhatsApp Image 2026-06-09 at 4.43.28 PM.jpeg" alt="Rosslyn - Beautiful Memory 4"
+                        onerror="this.parentElement.innerHTML='<div class=\\'photo-placeholder\\'><div class=\\'icon\\'>✨</div><p>Add photo4.jpg to rosslyn folder</p></div>'">
                 </div>
                 <div class="photo-card">
-                    <img src="rose/WhatsApp Image 2026-06-09 at 4.43.29 PM.jpeg" alt="Rosslyn - Beautiful Memory 5" onerror="this.parentElement.innerHTML='<div class=\\'photo-placeholder\\'><div class=\\'icon\\'>💖</div><p>Add photo5.jpg to rosslyn folder</p></div>'">
+                    <img src="rose/WhatsApp Image 2026-06-09 at 4.43.29 PM.jpeg" alt="Rosslyn - Beautiful Memory 5"
+                        onerror="this.parentElement.innerHTML='<div class=\\'photo-placeholder\\'><div class=\\'icon\\'>💖</div><p>Add photo5.jpg to rosslyn folder</p></div>'">
                 </div>
                 <div class="photo-card">
-                    <img src="rose/WhatsApp Image 2026-06-09 at 4.43.27 PM (1).jpeg" alt="Rosslyn - Beautiful Memory 6" onerror="this.parentElement.innerHTML='<div class=\\'photo-placeholder\\'><div class=\\'icon\\'>🎀</div><p>Add photo6.jpg to rosslyn folder</p></div>'">
+                    <img src="rose/WhatsApp Image 2026-06-09 at 4.43.27 PM (1).jpeg" alt="Rosslyn - Beautiful Memory 6"
+                        onerror="this.parentElement.innerHTML='<div class=\\'photo-placeholder\\'><div class=\\'icon\\'>🎀</div><p>Add photo6.jpg to rosslyn folder</p></div>'">
                 </div>
             </div>
         </section>
@@ -539,16 +603,23 @@
         <section class="love-letter">
             <h2>My Love Letter to You, Rosslyn 💌</h2>
             <p>
-                My dearest <span class="highlight">Rosslyn</span>, on this special day, I want you to know just how incredibly <span class="highlight">grateful</span> I am to have you in my life. Your love has transformed my world in ways I never imagined possible.
+                My dearest <span class="highlight">Rosslyn</span>, on this special day, I want you to know just how
+                incredibly <span class="highlight">grateful</span> I am to have you in my life. Your love has
+                transformed my world in ways I never imagined possible.
             </p>
             <p>
-                Every moment with you feels like a beautiful dream I never want to wake up from. The way you <span class="highlight">love me unconditionally</span>, support me through every challenge, and bring light into even my darkest days — it means everything to me.
+                Every moment with you feels like a beautiful dream I never want to wake up from. The way you <span
+                    class="highlight">love me unconditionally</span>, support me through every challenge, and bring
+                light into even my darkest days — it means everything to me.
             </p>
             <p>
-                You are my <span class="highlight">best friend</span>, my safe place, my greatest adventure, and my forever home. Your smile is the first thing I think of in the morning and the last thing on my mind at night.
+                You are my <span class="highlight">best friend</span>, my safe place, my greatest adventure, and my
+                forever home. Your smile is the first thing I think of in the morning and the last thing on my mind at
+                night.
             </p>
             <p>
-                Thank you for choosing me, for believing in us, and for loving me with a heart so pure and beautiful. I promise to cherish you, honor you, and love you more with each passing day.
+                Thank you for choosing me, for believing in us, and for loving me with a heart so pure and beautiful. I
+                promise to cherish you, honor you, and love you more with each passing day.
             </p>
             <p class="signature">
                 Forever Yours, Your Amzungu ❤️
@@ -561,12 +632,15 @@
             <p>
                 There's something magical that happens every time you call me
                 <span class="names">"Amzungu"</span> or <span class="names">"Akaladi"</span>.
-                Those aren't just nicknames to me — they're the sweetest melodies my heart has ever known ofcoz with the help of your sweet voice.
+                Those aren't just nicknames to me — they're the sweetest melodies my heart has ever known ofcoz with the
+                help of your sweet voice.
             </p>
             <p>
-                When your voice says "my mzungu or akaladi," 
-             I feel like the luckiest man alive. Those words from your lips make me happier than anything else in this world.
-                They are my favorite sound, my comfort, my pride and my joy. Thank you for giving me names that only you can call me.
+                When your voice says "my mzungu or akaladi,"
+                I feel like the luckiest man alive. Those words from your lips make me happier than anything else in
+                this world.
+                They are my favorite sound, my comfort, my pride and my joy. Thank you for giving me names that only you
+                can call me.
                 I am forever yours, and greatful to have you as my girl my beautiful Rosslyn.
             </p>
         </section>
@@ -578,32 +652,39 @@
                 <div class="reason-card">
                     <span class="emoji">🌟</span>
                     <h3>Your Beautiful Heart</h3>
-                    <p>You have the kindest,and the most generous soul. The way you care for others and spread love everywhere you go inspires me every single day.</p>
+                    <p>You have the kindest,and the most generous soul. The way you care for others and spread love
+                        everywhere you go inspires me every single day.</p>
                 </div>
                 <div class="reason-card">
                     <span class="emoji">😊</span>
                     <h3>Your Radiant Smile</h3>
-                    <p>Your smile and soft voice has the power to make me feel better when i am upset i dont just show it. It's the most beautiful thing I've ever seen, and I fall in love with it over and over again.</p>
+                    <p>Your smile and soft voice has the power to make me feel better when i am upset i dont just show
+                        it. It's the most beautiful thing I've ever seen, and I fall in love with it over and over
+                        again.</p>
                 </div>
                 <div class="reason-card">
                     <span class="emoji">🤗</span>
                     <h3>Your Warmth</h3>
-                    <p>The way you make everyone around you feel loved and valued is truly magical. Your warmth is my favorite place to be and i miss you in my arms.</p>
+                    <p>The way you make everyone around you feel loved and valued is truly magical. Your warmth is my
+                        favorite place to be and i miss you in my arms.</p>
                 </div>
                 <div class="reason-card">
                     <span class="emoji">💪</span>
                     <h3>Your Strength</h3>
-                    <p>You face every challenge with grace and courage. Your resilience amazes me, and I'm so proud to stand beside you.</p>
+                    <p>You face every challenge with grace and courage. Your resilience amazes me, and I'm so proud to
+                        stand beside you.</p>
                 </div>
                 <div class="reason-card">
                     <span class="emoji">🎨</span>
                     <h3>Your Uniqueness</h3>
-                    <p>There's no one else like you in this entire world. Your hopes, your passions, your dreams — everything about you is perfectly you and different that`s` why i like it all.</p>
+                    <p>There's no one else like you in this entire world. Your hopes, your passions, your dreams —
+                        everything about you is perfectly you and different that`s` why i like it all.</p>
                 </div>
                 <div class="reason-card">
                     <span class="emoji">💖</span>
                     <h3>Your Love for Me</h3>
-                    <p>The way you love me makes me feel like the luckiest person olo pena mutisale still appreciate it. Your love is my greatest treasure, and I promise to protect it forever.</p>
+                    <p>The way you love me makes me feel like the luckiest person olo pena mutisale still appreciate it.
+                        Your love is my greatest treasure, and I promise to protect it forever.</p>
                 </div>
             </div>
         </section>
@@ -614,7 +695,10 @@
             <div class="wish-box">
                 <div class="cake-emoji">🎂</div>
                 <p>
-                    On your special day, I wish you all the happiness this world has to offer. May every dream you hold in your heart come true. May this year bring you endless joy, beautiful surprises, and moments that take your breath away. You deserve nothing less than the absolute best, my love. Happy Birthday to the queen of my heart, my Rosslyn! 👑
+                    On your special day, I wish you all the happiness this world has to offer. May every dream you hold
+                    in your heart come true. May this year bring you endless joy, beautiful surprises, and moments that
+                    take your breath away. You deserve nothing less than the absolute best, my love. Happy Birthday to
+                    the queen of my heart, my Rosslyn! 👑
                 </p>
             </div>
         </section>
@@ -635,7 +719,7 @@
         function createHearts() {
             const container = document.getElementById('heartsContainer');
             const hearts = ['❤', '💕', '💖', '💗', '💓', '💝'];
-            
+
             for (let i = 0; i < 30; i++) {
                 const heart = document.createElement('div');
                 heart.className = 'heart';
@@ -649,7 +733,7 @@
         }
 
         // Add sparkle effects on click
-        document.addEventListener('click', function(e) {
+        document.addEventListener('click', function (e) {
             for (let i = 0; i < 5; i++) {
                 const sparkle = document.createElement('div');
                 sparkle.className = 'sparkle';
@@ -665,6 +749,5 @@
         createHearts();
     </script>
 </body>
+
 </html>'''
-
-
